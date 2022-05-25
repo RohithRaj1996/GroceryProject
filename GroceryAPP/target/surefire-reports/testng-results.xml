@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="56830" started-at="2022-05-19T18:54:32 IST" finished-at="2022-05-19T18:55:28 IST">
+    <groups>
+      <group name="critical">
+        <method signature="LoginPageTestCases.verifyCheckBox()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="verifyCheckBox" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.verifyLoginButtonText()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="verifyLoginButtonText" class="testCases.LoginPageTestCases"/>
+        <method signature="ManageProductTestCases.VerifyTextOfAlertBox()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="VerifyTextOfAlertBox" class="testCases.ManageProductTestCases"/>
+        <method signature="ManageProductTestCases.verifyDropdownCategory()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="verifyDropdownCategory" class="testCases.ManageProductTestCases"/>
+        <method signature="MobileSliderTestCases.VerifyTitleMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="VerifyTitleMobileSlider" class="testCases.MobileSliderTestCases"/>
+        <method signature="MobileSliderTestCases.VerifyUrlMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="VerifyUrlMobileSlider" class="testCases.MobileSliderTestCases"/>
+      </group> <!-- critical -->
+    </groups>
+    <test name="My Test" duration-ms="56830" started-at="2022-05-19T18:54:32 IST" finished-at="2022-05-19T18:55:28 IST">
+      <class name="testCases.MobileSliderTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="beforeMethod" is-config="true" duration-ms="6185" started-at="2022-05-19T18:55:07 IST" finished-at="2022-05-19T18:55:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyTitleMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="VerifyTitleMobileSlider" duration-ms="5071" started-at="2022-05-19T18:55:13 IST" finished-at="2022-05-19T18:55:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleMobileSlider -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-19T18:55:18 IST" finished-at="2022-05-19T18:55:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitleMobileSlider status=SUCCESS method=MobileSliderTestCases.VerifyTitleMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="beforeMethod" is-config="true" duration-ms="5936" started-at="2022-05-19T18:55:18 IST" finished-at="2022-05-19T18:55:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyUrlMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="VerifyUrlMobileSlider" duration-ms="4191" started-at="2022-05-19T18:55:24 IST" finished-at="2022-05-19T18:55:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrlMobileSlider -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.MobileSliderTestCases@6b57696f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-19T18:55:28 IST" finished-at="2022-05-19T18:55:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUrlMobileSlider status=SUCCESS method=MobileSliderTestCases.VerifyUrlMobileSlider()[pri:0, instance:testCases.MobileSliderTestCases@6b57696f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.MobileSliderTestCases -->
+      <class name="testCases.ManageProductTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="beforeMethod" is-config="true" duration-ms="4232" started-at="2022-05-19T18:54:45 IST" finished-at="2022-05-19T18:54:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyTextOfAlertBox()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="VerifyTextOfAlertBox" duration-ms="3817" started-at="2022-05-19T18:54:49 IST" finished-at="2022-05-19T18:54:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTextOfAlertBox -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-19T18:54:53 IST" finished-at="2022-05-19T18:54:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTextOfAlertBox status=SUCCESS method=ManageProductTestCases.VerifyTextOfAlertBox()[pri:0, instance:testCases.ManageProductTestCases@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="beforeMethod" is-config="true" duration-ms="7451" started-at="2022-05-19T18:54:53 IST" finished-at="2022-05-19T18:55:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyDropdownCategory()[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="verifyDropdownCategory" duration-ms="6320" started-at="2022-05-19T18:55:01 IST" finished-at="2022-05-19T18:55:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownCategory -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ManageProductTestCases@58c1670b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-19T18:55:07 IST" finished-at="2022-05-19T18:55:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDropdownCategory status=SUCCESS method=ManageProductTestCases.verifyDropdownCategory()[pri:0, instance:testCases.ManageProductTestCases@58c1670b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ManageProductTestCases -->
+      <class name="testCases.LoginPageTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="beforeMethod" is-config="true" duration-ms="8269" started-at="2022-05-19T18:54:32 IST" finished-at="2022-05-19T18:54:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyCheckBox()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="verifyCheckBox" duration-ms="853" started-at="2022-05-19T18:54:40 IST" finished-at="2022-05-19T18:54:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBox -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="afterMethod" is-config="true" duration-ms="5" started-at="2022-05-19T18:54:41 IST" finished-at="2022-05-19T18:54:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckBox status=SUCCESS method=LoginPageTestCases.verifyCheckBox()[pri:0, instance:testCases.LoginPageTestCases@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="beforeMethod" is-config="true" duration-ms="4231" started-at="2022-05-19T18:54:41 IST" finished-at="2022-05-19T18:54:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginButtonText()[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="verifyLoginButtonText" duration-ms="147" started-at="2022-05-19T18:54:45 IST" finished-at="2022-05-19T18:54:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonText -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@7a765367]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-19T18:54:45 IST" finished-at="2022-05-19T18:54:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginButtonText status=SUCCESS method=LoginPageTestCases.verifyLoginButtonText()[pri:0, instance:testCases.LoginPageTestCases@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginPageTestCases -->
+    </test> <!-- My Test -->
+  </suite> <!-- My suite -->
+</testng-results>
